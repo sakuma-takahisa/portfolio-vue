@@ -2,7 +2,8 @@ module.exports = {
   "transpileDependencies": [
     "vuetify"
   ],
-  publicPath: "/portfolio-vue",
+  publicPath: "./",
+  assetsDir: "",
   outputDir: "docs",
   filenameHashing: false,
   productionSourceMap: false,
