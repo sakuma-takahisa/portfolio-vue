@@ -43,7 +43,8 @@ export default {
   },
   methods: {
     submit() {
-      const url = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSenehIKe5jEKctNUzPKqCECjr6kVFMWyyP7pZN9Euohqa8eFw/formResponse'
+      const CORS_PROXY = 'https://cors-anywhere.herokuapp.com/'
+      const URL = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSenehIKe5jEKctNUzPKqCECjr6kVFMWyyP7pZN9Euohqa8eFw/formResponse'
       const params = new FormData()
       params.append("entry.1545138541", this.email)
       params.append("entry.1546633810",  this.name)
@@ -51,15 +52,15 @@ export default {
 
       /* eslint-disable no-console */
       if (this.$refs.form.validate()) {
-        axios.post(url, params)
+        axios.post(CORS_PROXY + URL, params)
         .then(response => {
           console.log(response)
-          alert("Your message was sent.")
+          window.alert("Your message was sent. Thx!!")
         })
-        // .catch(response => {
-        //   console.log(response)
-        //   alert("Error... Try again")
-        // })
+        .catch(response => {
+          console.log(response)
+          window.alert("Error... Please retry.")
+        })
       }
     },
    }
