@@ -53,6 +53,7 @@ export default {
         {title: 'Top', icon: 'fas fa-home', link: '/'},
         {title: 'About', icon: 'fas fa-address-card', link: '/about'},
         {title: 'Skill', icon: 'fas fa-code', link: '/skill'},
+        {title: 'Works', icon: 'fas fa-archive', link: '/works'},
         {title: 'Contact', icon: 'fas fa-envelope', link: '/contact'},
       ]
     }
