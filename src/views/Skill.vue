@@ -22,6 +22,7 @@
 
         <v-flex xs12 sm6 md4 pa-6 align-self-center>
           <p>
+            まずはコーダー業務がしっかりできるようになりたいです。<br>
             PHP(WP, Laravel)とかフロントエンド周辺(Typescript, Nuxt)あたり学習して使えるようにしていきたい。<br>
             Svelteてどうなんだろ🤔
           </p>

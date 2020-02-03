@@ -25,7 +25,7 @@
 
         <v-flex xs12 sm6 md4 pa-6 align-self-center>
           <p>
-            実績はまだありません＞＜ <br> これから頑張ります!!
+            個人での実績はまだありません。。。<br> これから頑張ります!!
           </p>
         </v-flex>
       </v-layout>
