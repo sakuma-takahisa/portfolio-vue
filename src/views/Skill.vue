@@ -22,8 +22,7 @@
 
         <v-flex xs12 sm6 md4 pa-6 align-self-center>
           <p>
-            まずはコーダー業務がしっかりできるようになりたいです。<br>
-            PHP(WP, Laravel)とかフロントエンド周辺(Typescript, Nuxt)あたり学習して使えるようにしていきたい。<br>
+            フロントエンド周辺(Typescript, Nuxt)やPHP(WP, Laravel)等を学習して使えるようにしていきたいです。<br>
             Svelteてどうなんだろ🤔
           </p>
         </v-flex>
@@ -38,12 +37,12 @@ export default {
   data() {
     return {
       items: [
-        {title: 'HTML, CSS', text: '基本的なことは大体いけると思います。フレームワークはBootstarp4が使えます。'},
-        {title: 'Javascript', text: '基本的なことはいｋ(ry。 後述のRailsと組み合わせてJQuery扱ったり、PWA化の対応なんかもかじったことがあります。'},
-        {title: 'Ruby', text: '以前勤めていたアルバイトでRailsをメインで使用していました。CRUD作ったりフォーム作ったりなどしていました。'},
+        {title: 'HTML, CSS', text: '基本的なことは大体いけると思います。フレームワークはBootstarp4が使えます。SASS(SCSS)でコーディングしています。'},
+        {title: 'JavaScript', text: '基本的なことはいｋ(ry。 後述のRailsと組み合わせてJQuery扱ったり、PWA化の対応なんかもかじったことがあります。'},
+        {title: 'Ruby', text: '以前勤めていたアルバイトでRailsをメインに使用していました。CRUD作ったりフォーム作ったりなどしていました。'},
         {title: 'Vue.js', text: 'Rails + Vueの組み合わせで使用していました。こちらはそこまで経験積めなかったので今後ガシガシ勉強していきたいと思ってます。'},
         {title: 'Git', text: 'Githubを利用してます。ブランチ切ってPR出したりなどの基本操作が可能です。'},
-        {title: 'PHP', text: '勉強中です＞＜'},
+        {title: 'PHP', text: '勉強中です＞＜　DockerでLAMP環境作って学習したい'},
         {title: 'English', text: '日常会話がギリギリ困るレベル。数年前にフロリダ一人旅してなんとか帰ってこれた経験があります。'},
       ]
     }

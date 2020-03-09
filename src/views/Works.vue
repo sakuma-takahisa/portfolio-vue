@@ -19,15 +19,14 @@
             <v-card-text>
               <p>{{ item.text }}</p>
             </v-card-text>
-
           </v-card>
         </v-flex>
 
-        <v-flex xs12 sm6 md4 pa-6 align-self-center>
+        <!-- <v-flex xs12 sm6 md4 pa-6 align-self-center>
           <p>
             個人での実績はまだありません。。。<br> これから頑張ります!!
           </p>
-        </v-flex>
+        </v-flex> -->
       </v-layout>
 
     </v-card>
@@ -40,6 +39,7 @@ export default {
     return {
       items: [
         {url: "https://sakuma-takahisa.github.io/portfolio/", img: require("@/assets/bootstrapLP.png"), text: 'Bootstrapの練習がてら作成したLP的なページ'},
+        {url: "https://sakuma-takahisa.github.io/LP-practice/", img: require("@/assets/LPpractice.png"), text: 'コーディング練習ページ。フレームワークやjQueryを使用せずにスタイルや動きなども作成してみました。'},
       ]
     }
   }
